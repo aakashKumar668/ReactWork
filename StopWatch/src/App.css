@@ -1,0 +1,10 @@
+.app{
+    margin: auto auto;
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    display: flow-root;
+    /* justify-content: center; */
+    text-align: center;
+    padding: 100px;
+}
