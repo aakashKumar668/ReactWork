@@ -1,5 +1,4 @@
 
-import userImage from "../../assets/Images/userImage.png";
 import "./Navbar.css"
 import { FaSearch } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
