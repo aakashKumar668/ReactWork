@@ -1,0 +1,39 @@
+.slick-dots{
+    position: absolute;
+    bottom: 9px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+}
+.slick-next {
+    right: 15px;
+    z-index: 99;
+    top: 25%;
+}
+.slick-prev{
+    z-index: 99;
+    left: 15px;
+    top: 25%;
+}
