@@ -178,6 +178,9 @@ const Player = () =>
     setIsFav(isExist);
   }, [selectedIndex, currentSong.name]);
 
+
+
+  
   return (
     <>
       <div className='w-3/5 rounded shadow-lg/100 shadow-blue-600 ring-3 ring-white overflow-hidden'>
@@ -186,8 +189,8 @@ const Player = () =>
         </div>
         <div className='w-full relative'><img src={currentSong.img} alt="" className='w-full h-70' /></div>
         <div className='p-2 absolute top-80 left-160 tracking-wide grid gap-1'>
-          <h1 className='text-2xl font-bold text-gray-200 '>{currentSong.name}</h1>
-          <p className='text-xl font-bold text-gray-700 font-[cursive]'>{currentSong.artist}...</p>
+          <h1 className='text-2xl font-bold text-gray-200 '>{currentSong.name?.split("",20)}</h1>
+          <p className='text-xl font-bold text-gray-700 font-[cursive]'>{currentSong.artist?.split("", 20)}...</p>
         </div>
         <div className='w-full h-31 bg-white'>
           <div>   <input
